@@ -77,7 +77,7 @@ margin-right: 4rem;
 
     font-weight: 700;
     margin-top: 2rem;
-    margin-left: 2rem;
+    margin-left: 3rem;
    
 }
 .box1{
@@ -93,14 +93,16 @@ margin-right: 4rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    color:hsl(0, 100%, 67%);
 }
 .titleBox1{
-    margin: 1rem;
-    color:hsl(0, 100%, 67%);
+    margin-right: 4rem;
+
 }
 .resultBox1{
     color:hsl(224, 30%, 27%);
-    margin: 1rem;
+    margin-right: 1rem;
+
 }
 .box2{
     display: flex;
@@ -110,20 +112,20 @@ margin-right: 4rem;
     margin-left: 2.5rem;
     margin-right: 2.5rem;
     border-radius: 0.5rem;
-  
     background-color: hsl(39, 100%, 56%,0.1);
     height: 3rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-.titleBox2{
-    margin: 1rem;
     color: hsl(39, 100%, 56%);
 }
+.titleBox2{
+    margin-right: 5rem;
+
+}
 .resultBox2{
-    margin: 1rem;
     color:hsl(224, 30%, 27%);
+    margin-right: 1rem;
 }
 .box3{
     display: flex;
@@ -133,20 +135,20 @@ margin-right: 4rem;
     margin-top: 1rem;
     margin-left: 2.5rem;
     margin-right: 2.5rem;
-  
     background-color: hsl(166, 100%, 37%,0.1);
     height: 3rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-.titleBox3{
-    margin: 1rem;
     color: hsl(166, 100%, 37%);
 }
+.titleBox3{
+    margin-right: 5rem;
+   
+}
 .resultBox3{
-    margin: 1rem;
     color:hsl(224, 30%, 27%);
+    margin-right: 1rem;
 }
 .box4{
     display: flex;
@@ -155,21 +157,21 @@ margin-right: 4rem;
     margin-top: 1rem;
     margin-left: 2.5rem;
     margin-right: 2.5rem;
-      border-radius: 0.5rem;
- 
+     border-radius: 0.5rem;
     background-color:  hsl(234, 85%, 45%,0.1);
     height: 3rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-.titleBox4{
-    margin: 1rem;
     color: hsl(234, 85%, 45%);
 }
+.titleBox4{
+    margin-right: 5rem;
+
+}
 .resultBox4{
-    margin: 1rem;
     color:hsl(224, 30%, 27%);
+    margin-right: 1rem;
 }
 
 .button{
@@ -178,15 +180,23 @@ margin-right: 4rem;
    justify-content: center;
    flex-direction: column;
    text-align: center;
-   background: linear-gradient(to top, hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+  background-color:  hsl(224, 30%, 27%);
     height: 3rem;
     margin: 3rem;
     border-radius: 2rem;
 }
 
+
+.button:hover {
+    background: linear-gradient(to top, hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
+.imagen-icono{
+margin-left: 10px;
+
+}
 .attribution {
     position: absolute;
-    margin: 10rem;
+    margin: 5rem;
     bottom: 0
 }
 
@@ -202,7 +212,7 @@ margin-right: 4rem;
         flex-direction: column ;
         align-content: start;
         align-items: center; 
-        height: auto;
+        height: 50vw;
         width: 100vw;
     }
  .leftBox{
@@ -211,8 +221,34 @@ margin-right: 4rem;
      height: 100vh;
  }
  .rigthBox{
-
     top: 0;
+    border-bottom: 6rem;
  }
+ .circle{
+    position: relative;
+   display: flex;
+
+   flex-direction: column;
+   
+    width: 9rem;
+    height: 9rem;
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
  
+    
+}   
+
+.bottomTextCircle{
+    position: absolute;
+   color: hsl(241, 100%, 89%);
+   bottom: 1.5rem;
+   transform: translate(-3rem, ); 
+   font-weight: 500;
+   }
+
+   .bottomText2{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+    }
 }
